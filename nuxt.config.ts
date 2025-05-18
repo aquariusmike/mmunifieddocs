@@ -11,6 +11,21 @@ export default defineNuxtConfig({
   tailwindcss: {
     // Options
   },
+   runtimeConfig: {
+    // Server-only variables (not exposed to the browser)
+    privateKey: process.env.PRIVATE_KEY,
+    
+    // Public variables (exposed to the browser)
+    public: {
+      apiBase: process.env.API_BASE || 'default-value'
+    }
+  },
+   vite: {
+    define: {
+      'process.env.DEBUG': false,
+      // Add any other process.env variables you're using
+    }
+  },
    vue: {
     compilerOptions: {
       isCustomElement: (tag) => tag === 'animated-icons'
