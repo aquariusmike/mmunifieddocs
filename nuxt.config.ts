@@ -11,6 +11,10 @@ export default defineNuxtConfig({
   tailwindcss: {
     // Options
   },
+  plugins: [
+    './plugins/process',
+    '~/plugins/router.js'
+  ],
    runtimeConfig: {
     // Server-only variables (not exposed to the browser)
     privateKey: process.env.PRIVATE_KEY,
@@ -64,8 +68,6 @@ export default defineNuxtConfig({
  
   
   // Add your plugins
-  plugins: [
-    '~/plugins/router.js'
-  ],
+
   
 })
