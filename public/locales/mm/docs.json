@@ -1,0 +1,16 @@
+{
+  "docsList": {
+    "docs": [
+      {
+        "title": "HTML",
+        "description": "HTML သည် ဝက်ဘ်စာမျက်နှာများကို ဖန်တီးရန် အခြေခံ အမှတ်အသား ဘာသာစကား ဖြစ်သည်။",
+        "path": "/docs/mm/html/introduction"
+      },
+      {
+        "title": "CSS",
+        "description": "CSS သည် ဝက်ဘ်စာမျက်နှာများ အပြင်အဆင်ကို ဖန်တီးရန် သုံးသော ဘာသာစကား ဖြစ်သည်။",
+        "path": "/docs/mm/css/introduction"
+      }
+    ]
+  }
+}

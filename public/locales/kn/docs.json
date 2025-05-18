@@ -1,0 +1,16 @@
+{
+  "docsList": {
+    "docs": [
+      {
+        "title": "HTML",
+        "description": "HTML ವೆಬ್ ಪುಟಗಳನ್ನು ರಚಿಸಲು ಮೂಲ ಮಾರ್ಕಪ್ ಭಾಷೆಯಾಗಿದೆ.",
+        "path": "/docs/kn/html/introduction"
+      },
+      {
+        "title": "CSS",
+        "description": "CSS ವೆಬ್ ಪುಟಗಳ ವಿನ್ಯಾಸವನ್ನು ರಚಿಸಲು ಬಳಸುವ ಭಾಷೆಯಾಗಿದೆ.",
+        "path": "/docs/kn/css/introduction"
+      }
+    ]
+  }
+}

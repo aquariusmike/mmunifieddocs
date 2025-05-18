@@ -1,0 +1,16 @@
+{
+  "docsList": {
+    "docs": [
+      {
+        "title": "HTML",
+        "description": "HTML is the basic markup language for creating web pages.",
+        "path": "/docs/en/html/introduction"
+      },
+      {
+        "title": "CSS",
+        "description": "CSS is a language used to create the layout of web pages.",
+        "path": "/docs/en/css/introduction"
+      }
+    ]
+  }
+}
